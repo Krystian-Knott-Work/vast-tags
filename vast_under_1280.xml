@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+  <Ad id="fanserv-test-u1280">
+    <InLine>
+      <AdSystem version="1.0">FanServ Stadium (test)</AdSystem>
+      <AdTitle><![CDATA[Test VAST 2.0 - width under 1280px]]></AdTitle>
+      <Error><![CDATA[https://samplelib.com/sample204?ev=u1280-error]]></Error>
+      <Impression><![CDATA[https://samplelib.com/sample204?ev=u1280-impression]]></Impression>
+      <Creatives>
+        <Creative id="creative-u1280" sequence="1">
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://samplelib.com/sample204?ev=u1280-start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://samplelib.com/sample204?ev=u1280-firstQuartile]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://samplelib.com/sample204?ev=u1280-midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://samplelib.com/sample204?ev=u1280-thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://samplelib.com/sample204?ev=u1280-complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[https://samplelib.com/sample204?ev=u1280-mute]]></Tracking>
+              <Tracking event="unmute"><![CDATA[https://samplelib.com/sample204?ev=u1280-unmute]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://samplelib.com/sample204?ev=u1280-pause]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://samplelib.com/sample204?ev=u1280-resume]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://samplelib.com/]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="800" scalable="true" maintainAspectRatio="true"><![CDATA[https://samplelib.com/mp4/sample-30s-360p.mp4]]></MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
